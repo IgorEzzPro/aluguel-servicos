@@ -1,0 +1,21 @@
+.admin {
+  padding: 40px;
+  color: #FFD700;
+}
+
+.admin ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin li {
+  background-color: #0A1F44;
+  border: 2px solid #FFD700;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.admin li:hover {
+  background-color: #112B5C;
+}

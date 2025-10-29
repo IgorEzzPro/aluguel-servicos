@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pagamento</title>
+  <link rel="stylesheet" href="pagamento.css" />
+</head>
+<body>
+  <div class="pagamento-container">
+    <div class="pagamento-card">
+      <h2>Pagamento</h2>
+      <p>Valor do profissional: <span id="valorBase"></span></p>
+      <p>Taxa da plataforma: <span id="taxa"></span></p>
+      <p>Total a pagar: <strong id="total"></strong></p>
+
+      <form id="pagamentoForm">
+        <select required>
+          <option value="pix">Pix</option>
+          <option value="credito">Cartão de Crédito</option>
+          <option value="debito">Débito</option>
+        </select>
+        <button class="btn" type="submit">Pagar</button>
+      </form>
+    </div>
+  </div>
+  <script src="pagamento.js"></script>
+</body>
+</html>
